@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+.serif {
+  font-family: 'Playfair Display', serif;
+}
