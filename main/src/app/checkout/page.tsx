@@ -179,8 +179,8 @@ const CheckoutPage = () => {
     // 🟡 ONLINE PAYMENT (placeholder)
     if (method === "online") {
 
-      window.alert("We are temporarily unable to process online payments. Please choose another payment option to proceed with your purchase.");
-      return;
+      // window.alert("We are temporarily unable to process online payments. Please choose another payment option to proceed with your purchase.");
+      // return;
 
       try {
         setIsProcessing(true);
