@@ -72,7 +72,7 @@ router.post("/", async (req, res) => {
 
         totalAmount += unitPrice * quantity;
 
-        if(totalAmount < 2000) totalAmount += 150;
+        // if(totalAmount < 2000) totalAmount += 150;
 
         orderItems.push({
           product_id,

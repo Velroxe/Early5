@@ -68,7 +68,8 @@ const CheckoutPage = () => {
     return <div className="py-40 text-center">Redirecting…</div>;;
   }
 
-  const shipping = cartTotal >= 2000 ? 0 : 150;
+  // const shipping = cartTotal >= 2000 ? 0 : 150;
+  const shipping = 0;
   const total = cartTotal + shipping;
 
   // 🧾 Form handling
