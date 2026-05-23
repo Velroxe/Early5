@@ -15,7 +15,8 @@ const CartPage = () => {
     cartTotal,
   } = useCart();
 
-  const shipping = cartTotal > 2000 ? 0 : 150;
+  // const shipping = cartTotal > 2000 ? 0 : 150;
+  const shipping = 0;
   const total = cartTotal + shipping;
 
   // 🛒 Empty cart state
@@ -149,11 +150,11 @@ const CartPage = () => {
                   <span>{shipping === 0 ? "FREE" : `₹${shipping}`}</span>
                 </div>
 
-                {shipping > 0 && (
+                {/* {shipping > 0 && (
                   <p className="text-[10px] text-[#6D634C] font-bold">
                     Spend ₹{2000 - cartTotal} more for FREE shipping
                   </p>
-                )}
+                )} */}
 
                 <div className="pt-4 border-t border-gray-200 flex justify-between text-xl font-bold">
                   <span>Total</span>
